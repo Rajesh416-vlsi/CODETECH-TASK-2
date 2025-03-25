@@ -38,7 +38,10 @@ When the write_en signal is high, the module writes the data_in value to the mem
 **Read Operation**
 When the write_en signal is low, the module outputs the value stored at the memory location specified by the address input. The data_out is updated with the value stored in the ram_block[address] during the rising edge of the clock. This ensures synchronous behavior.
 
-**Conclusion**
+**output waveform**:
+
+
+
 This 4-bit RAM module is a basic example of implementing synchronous memory in Verilog. It demonstrates how to design a simple memory structure with read and write operations, providing a useful template for more complex memory designs in digital systems. It also emphasizes the importance of using proper timing and synchronization in hardware design to ensure reliable and predictable behavior.
 
 This module can be expanded or modified to accommodate more complex memory requirements, such as adding additional control signals, increasing the data width, or incorporating different memory types (e.g., ROM, dual-port RAM).
