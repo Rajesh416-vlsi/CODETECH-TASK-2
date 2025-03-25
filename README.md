@@ -38,7 +38,9 @@ When the write_en signal is high, the module writes the data_in value to the mem
 **Read Operation**
 When the write_en signal is low, the module outputs the value stored at the memory location specified by the address input. The data_out is updated with the value stored in the ram_block[address] during the rising edge of the clock. This ensures synchronous behavior.
 
-**output waveform**:
+**output of the TASK**:
+![RAM](https://github.com/user-attachments/assets/57947916-fff0-4bb5-bfea-51fac26755c4)
+
 
 
 
